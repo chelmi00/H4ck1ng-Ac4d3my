@@ -1,0 +1,116 @@
+body{
+	background-color: #eee;
+	color: #000;
+    background-image:url(backgroundH4.png);
+}
+a{
+    text-decoration: none;
+    color:dodgerblue;
+}
+a:hover{
+	text-decoration: underline; 
+	color:darkblue;
+}
+#navbar ul{
+    list-style-type: none;
+	margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: #000;
+    z-index: 100; 
+}
+#navbar li{
+   float: left;
+
+}
+#navbar li a{
+    padding: 15px 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1em;
+    text-align: center;
+    
+}
+#navbar li a:hover{
+    background-color: gray;
+    text-decoration: underline;
+
+}
+#content{
+    
+    max-width: 2360px;
+    position: relative;
+    top: 10px;
+    margin: 30;
+}
+#content header{
+	clear: both;
+	height: 500px;
+	width: 1167;
+	padding: 10px 15px;
+	background: #000;
+	border-radius: 1em;
+    opacity: .7;
+    color: white;
+
+}
+
+.hackthe{
+	width: 40%;
+	border: 1px solid;
+    float: left;
+    background: #000;
+    border-radius: 1em;
+    padding: 10px 15px;
+    opacity: .7;
+    color: white;
+}
+#secundario{
+
+    left: 580.5px;
+    position: absolute;
+    height: 181px;
+    width: 587px;
+    border: 1px solid;
+
+    background: #000;
+    border-radius: 1em;
+    padding: 10px 15px;
+    opacity: .7;
+    color: white;
+}
+
+.loginbar{
+
+    position: absolute;
+    left: 1167px; 
+    top: 0px;   
+    width: 20%;
+    height: 683px;
+    border: 1px solid;
+
+    background: #000;
+    border-radius: 1em;
+    padding: 10px 15px;
+    opacity: .7;
+    color: white;
+}
+
+
+#footer{
+    clear: both;
+	background: #ddd;
+	border-radius: 1em;
+	padding: 15px 3px;
+	background-color: dimgray;
+    opacity: .7;
+}
+
+
+
+
+
+
+
+
+//border: 1px solid;//top: 0.95px;//

@@ -1,0 +1,115 @@
+body{
+	background-color: #eee;
+	color: #000;
+    background-image: url(backgroundH4.png)
+}
+a{
+    text-decoration: none;
+    color:dodgerblue;
+}
+a:hover{
+	text-decoration: underline; 
+	color:darkblue;
+}
+#navbar ul{
+    list-style-type: none;
+	margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: #000;
+    z-index: 100; 
+}
+#navbar li{
+   float: left;
+
+}
+#navbar li a{
+    padding: 15px 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1em;
+    text-align: center;
+    
+}
+#navbar li a:hover{
+    background-color: gray;
+    text-decoration: underline;
+
+}
+#content{
+    
+    max-width: 1890px;
+    position: relative;
+    top: 10px;
+    margin: 30;
+    opacity: .7;
+}
+#content header{
+	clear: both;
+	height: 650px;
+	width: 1167;
+	padding: 10px 15px;
+	background: #000;
+	border-radius: 1em;
+    color: white;
+
+}
+
+#principal{
+	width: 40%;
+	border: 1px solid;
+    float: left;
+    background: #000;
+    border-radius: 1em;
+    padding: 10px 15px;
+    color: white;
+
+}
+#secundario{
+	width: 40%;
+	border: 1px solid;
+	float: left;
+	background: #000;
+	border-radius: 1em;
+	padding: 10px 15px;
+    color: white;
+
+}
+
+#content aside{	
+	width: 20%;
+    height: 719px;
+    border: 0.5px solid;
+    background: #000;
+    border-radius: 1em;
+    padding: 10px 15px;
+    position: absolute;
+    left: 1165px;
+    top: 0px;
+    color: white;
+
+}
+
+#footer{
+    clear: both;
+	background: #ddd;
+	border-radius: 1em;
+	padding: 15px 3px;
+	background-color: dimgray;
+}
+
+#pretension{
+    height: 370;
+	border: 1px solid;
+    clear: both;
+	padding: 10px 15px;
+	background: #ddd;
+	border-radius: 1em;
+}
+
+
+
+
+
+
+//border: 1px solid;//top: 0.95px;//
