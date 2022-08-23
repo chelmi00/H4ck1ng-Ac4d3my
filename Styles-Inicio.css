@@ -5,6 +5,7 @@ body{
     background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+    overflow-x: hidden;
 }
 
 a{
@@ -24,8 +25,7 @@ a:hover{
     z-index: 100; 
 }
 #navbar li{
-   float: left;
-
+    float: left;
 }
 #navbar li a{
     padding: 15px 10px;
@@ -50,17 +50,17 @@ a:hover{
 #content header{
 	clear: both;
 	height: 500px;
-	width: 1167;
+	width: 70vw;
 	padding: 10px 15px;
 	background: #000;
 	border-radius: 1em;
     opacity: .7;
     color: white;
-
+    text-align: center;
 }
 
 .hackthe{
-	width: 40%;
+	width: 35vw;
 	border: 1px solid;
     float: left;
     background: #000;
@@ -71,10 +71,10 @@ a:hover{
 }
 #secundario{
 
-    left: 580.5px;
+    left: 35vw;;
     position: absolute;
     height: 181px;
-    width: 587px;
+    width: 35vw;
     border: 1px solid;
 
     background: #000;
@@ -87,7 +87,7 @@ a:hover{
 .loginbar{
 
     position: absolute;
-    left: 1167px; 
+    right: 0px; 
     top: 0px;   
     width: 20%;
     height: 683px;
@@ -110,11 +110,6 @@ a:hover{
     opacity: .7;
 }
 
-
-
-
-
-
-
-
-//border: 1px solid;//top: 0.95px;//
+header img {
+    width: 66vw;
+}
